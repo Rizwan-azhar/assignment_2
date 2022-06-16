@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  {% load static %}
+  <link rel="stylesheet" href="{% static '/css/style.css' %}">
+  
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="/">Rizwan Azhar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse pl-5" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item ">
+                <a class="nav-link pl-5" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link pl-4" href="projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link pl-4" href="resume">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link pl-4" href="contact">Contact </a>
+            </li>
+            </ul>
+        </div>
+        </nav>
+
+</head>
+
+<body>
+
+
+<div class="text-center pt-5 back pb-5">
+    <h1 class="pt-5 color:white"> My Projects</h1>
+    <p class="pt-3">Some of my recent work, you can also download my complete portfolio by clicking the button below:</p>
+<button type="button" class="btn btn-primary">Click Here</button>
+</div>
+
+<div class="row pl-lg-5 py-5">
+    <div class="col-lg-4 col-md-4 col-12">
+    
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{% static '/images/p4design.jpg' %}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Project 1</h5>
+    <p class="card-text">Website for a company built in reactjs.</p>
+    <a href="#" class="btn btn-primary">Visit Website</a>
+  </div>
+</div>
+    </div>
+   <div class="col-lg-4 col-md-4 col-12">
+    
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{% static '/images/p3design.jpg' %}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Project 2</h5>
+    <p class="card-text">Website for a company built in reactjs.</p>
+    <a href="#" class="btn btn-primary">Visit Website</a>
+  </div>
+</div>
+    </div>
+   <div class="col-lg-4 col-md-4 col-12">
+    
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{% static '/images/p2design.jpg' %}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Project 3</h5>
+    <p class="card-text">Website for a company built in reactjs.</p>
+    <a href="#" class="btn btn-primary">Visit Website</a>
+  </div>
+</div>
+    </div>
+
+</div>
+<div class="row pl-lg-5 py-5">
+    <div class="col-lg-4 col-md-4 col-12">
+    
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{% static '/images/p4design.jpg' %}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Project 4</h5>
+    <p class="card-text">Website for a company built in reactjs.</p>
+    <a href="#" class="btn btn-primary">Visit Website</a>
+  </div>
+</div>
+    </div>
+   <div class="col-lg-4 col-md-4 col-12">
+    
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{% static '/images/p3design.jpg' %}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Project 5</h5>
+    <p class="card-text">Website for a company built in reactjs.</p>
+    <a href="#" class="btn btn-primary">Visit Website</a>
+  </div>
+</div>
+    </div>
+   <div class="col-lg-4 col-md-4 col-12">
+    
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{% static '/images/p2design.jpg' %}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Project 6</h5>
+    <p class="card-text">Website for a company built in reactjs.</p>
+    <a href="#" class="btn btn-primary">Visit Website</a>
+  </div>
+</div>
+    </div>
+
+</div>
+<div class="py-3 text-center">
+    <a href="#" class="btn btn-primary">Show More</a>
+</div>
+
+<div class="footer-clean bg-primary" style="color:white">
+       <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                       <a style="color:white" href="/">   <h3>Home</h3> </a>
+                        <ul>
+                            <li><a href="/">About</a></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                       <a style="color:white" href="projects">   <h3>Projects</h3> </a>
+                        <ul>
+                           <li><a href="resume">Resume</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                      <a style="color:white" href="contact">  <h3>Contact me</h3> </a>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                           <li><a href="#">Linkdin</a></li>
+                           
+
+                        </ul>
+                    </div>
+                   
+                </div>
+                <p class=" text-center copyright">Rizwan Azhar © 2022</p>
+
+            </div>
+        </footer>
+    </div>
+</body>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>
